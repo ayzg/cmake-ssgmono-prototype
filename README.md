@@ -1,11 +1,11 @@
 # SSG-Mono CMake Module : Working Prototype & Usage Example
 
-### Brief
+## Brief
 Initial working prototype and basic example project for 'ssg-mono', a CMake module for managing monorepo CMake projects.
 
-### Purpose
+## Purpose
 Eventually, any big project will need to separate concerns into smalled subproject.
-I created this for the **C& compiler**, which is a huge project which required separating into multiple subprojects - 
+I created this for the **C& Compiler**, a huge project which required separating into multiple subprojects - 
 or else it would be unamanagable. 
 
 While CMake advertises support for such a structure, setting it up and getting every
@@ -17,7 +17,7 @@ A lot of effort went into reading CMake documentation and examples to amalgamate
 together to make this work. I don't expect myself or any CMake dev to remember how to set this on the fly.
 
 
-### Details
+## Details
 `ssg-mono` is a CMake module for managing monorepo style CMake projects. 
 
 The key features of `ssg-mono` are:
