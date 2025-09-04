@@ -6,7 +6,7 @@ Initial working prototype and basic example project for 'ssg-mono', a CMake modu
 ## Purpose
 Eventually, any big project will need to separate concerns into smalled subproject.
 I created this for the **C& Compiler**, a huge project which required separating into multiple subprojects - 
-or else it would be unamanagable. 
+or else it would be unmanagable. 
 
 While CMake advertises support for such a structure, setting it up and getting every
 detail correct is a non-trivial task. Much of the work includes properly setting up a configure file for a package so
